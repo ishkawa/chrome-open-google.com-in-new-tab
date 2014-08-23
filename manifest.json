@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+
+  "name": "Open google.com in New Tab",
+  "description": "Open google.com in a new tab.",
+  "version": "1.0.0",
+  "chrome_url_overrides": {
+    "newtab": "redirect.html"
+  }
+}
